@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thaemu Games</title>
+<style>
+:root {
+  --bg: #f4f8fc; --text: #26313d; --muted: #5a6877; --accent: #2e6ea6;
+  --rule: #d6e1ec; --panel: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121a29; --text: #e0ebf7; --muted: #9fb0c3; --accent: #7fbff0;
+    --rule: #2c3a4f; --panel: #1a2436;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main {
+  max-width: 760px; margin: 0 auto; padding: 24px 16px 48px;
+  background: var(--panel); min-height: 100vh;
+}
+h1 { font-size: 1.7em; line-height: 1.25; margin: 0.4em 0 0.6em; }
+h2 { font-size: 1.3em; margin: 1.8em 0 0.5em; padding-top: 0.6em; border-top: 1px solid var(--rule); }
+h3 { font-size: 1.08em; margin: 1.4em 0 0.4em; }
+hr + h2 { border-top: 0; padding-top: 0; }
+a { color: var(--accent); word-break: break-word; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+code { font-size: 0.92em; }
+.table { overflow-x: auto; margin: 1em 0; }
+table { border-collapse: collapse; min-width: 100%; font-size: 0.94em; }
+th, td { border: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
+footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.92em; }
+footer a { margin-right: 1em; }
+</style>
+</head>
+<body>
+<main>
+<h1>Thaemu Games</h1>
+<p>Small, calm puzzle games for phones.</p>
+<h2>Fruit Sort Fridge</h2>
+<p>Sort the fruit into bottles, one type per bottle, and the fridge closes on a tidy shelf.</p>
+<ul>
+<li><a href="fruit-sort-fridge/privacy/">Privacy Policy</a></li>
+<li><a href="fruit-sort-fridge/terms/">Terms of Service</a></li>
+</ul>
+<footer>
+<a href="">Thaemu Games</a>
+<a href="fruit-sort-fridge/privacy/">Privacy Policy</a>
+<a href="fruit-sort-fridge/terms/">Terms</a>
+<p>Contact: <a href="mailto:thaemugames@gmail.com">thaemugames@gmail.com</a></p>
+</footer>
+</main>
+</body>
+</html>
